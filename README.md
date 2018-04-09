@@ -6,3 +6,5 @@
 ####5、然后 npm i
 ####6、然后react-native run-android 或者 react-native run-ios
 ![](https://github.com/LiuC520/react-native-city-pick/blob/master/src/screenshorts/%E6%9C%AA%E6%A0%87%E9%A2%98-2.png)
+如果iOS运行出错，libRCTBEEPickerManager.a找不到,可以移除以后，在BuildPhases中重新引入libRCTBEEPickerManager.a
+如果报错#import <React/RCTEventDispatcher.h>找不到，可以替换引入方法#import "RCTEventDispatcher.h"
